@@ -65,7 +65,7 @@
 
         I am a second-year master student majoring in <a
             href="https://msaii.cs.cmu.edu/" target="_blank">Artificial Intelligence and Innovation</a>
-        at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> advised by Professor
+        at <a href="https://www.cs.cmu.edu/" target="_blank">Carnegie Mellon University</a> advised by Professor
         <a href="http://euro.ecom.cmu.edu/shamos.html" target="_blank">Michael Shamos</a>
          and I will graduate in May 2023. I obtained my dual bachelor's degree in <a
             href="https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/" target="_blank">Computer Science</a>
@@ -232,6 +232,40 @@
             <div class="features">
 
                 <article data-aos="zoom-in" data-aos-duration="700">
+                    <a href="projects/MDP" class="image" target="_self"><img src="images/MDP.jpg" alt="" /></a>
+                    <div class="inner">
+                        <a href="projects/MDP" target="_self"><h3>AI Powered Smart Search System</h3></a>
+                        <ul>
+                            <li> Multidisciplinary Design Program sponsored by <a href="https://www.proquest.com/" target="_blank">
+                                ProQuest Co., Ltd.</a> and mentored by
+                                <a href="https://bnoble.engin.umich.edu/" target="_blank">Brian Noble</a></li>
+                            <li>Optimizes ProQuest’s search engine Dialog by proposing an approach to assign cooperative
+                                patent classification(CPC) code to unify patent schemes and better categorize document in
+                                the database.
+                            </li>
+                        </ul>
+                        </br>
+                        <b>[<a href="images/Design%20Expo.pdf" target="_blank">Design Expo</a>] [<a href="https://youtu.be/MNM5avmUQxQ" target="_blank">Demo</a>]</b>
+                    </div>
+                </article>
+
+                <article data-aos="zoom-in" data-aos-duration="700">
+                    <a class="image" target="_self"><img src="images/Colorizer3.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h3>Colorizing Black and White Picture</h3>
+                        <ul>
+                            <li> Computer vision course project mentored by
+                                <a href="https://andrewowens.com/" target="_blank">Andrew Owens</a></li>
+                            <li>Reimplement and optimize the colorizer devised by Richard Zhang [<a href="https://richzhang.github.io/colorization/" target="_blank">2</a>] through adjusting the architecture
+                                of the neural network as well as designing a more effective loss function.
+                            </li>
+                        </ul>
+                        </br>
+                        <b>[<a href="images/EECS%20442_Proposal_Colorizing_black_and_white_picture.pdf" target="_blank">Proposal</a>] [<a href="images/EECS442_final_project.pdf" target="_blank">Final Report</a>]</b>
+                    </div>
+                </article>
+
+                <article data-aos="zoom-in" data-aos-duration="700">
                     <a  class="image" target="_self"><img src="images/S2-CAN3.jpg" alt="" /></a>
                     <div class="inner">
                         <h3>Sufficiently Secure Controller Area Network</h3>
@@ -244,7 +278,7 @@
                             </li>
                         </ul>
                         </br>
-                        <b>[confidentiality required]</b>
+                        <b>[<a href="https://dl.acm.org/doi/10.1145/3485832.3485883" target="_blank">Webpage</a>]</b>
                     </div>
                 </article>
 
@@ -282,40 +316,6 @@
                         </ul>
                         </br>
                         <b>[confidentiality required]</b>
-                    </div>
-                </article>
-
-                <article data-aos="zoom-in" data-aos-duration="700">
-                    <a href="projects/MDP" class="image" target="_self"><img src="images/MDP.jpg" alt="" /></a>
-                    <div class="inner">
-                        <a href="projects/MDP" target="_self"><h3>AI Powered Smart Search System</h3></a>
-                        <ul>
-                            <li> Multidisciplinary Design Program sponsored by <a href="https://www.proquest.com/" target="_blank">
-                                ProQuest Co., Ltd.</a> and mentored by
-                                <a href="https://bnoble.engin.umich.edu/" target="_blank">Brian Noble</a></li>
-                            <li>Optimizes ProQuest’s search engine Dialog by proposing an approach to assign cooperative
-                                patent classification(CPC) code to unify patent schemes and better categorize document in
-                                the database.
-                            </li>
-                        </ul>
-                        </br>
-                        <b>[<a href="images/Design%20Expo.pdf" target="_blank">Design Expo</a>] [<a href="https://youtu.be/MNM5avmUQxQ" target="_blank">Demo</a>]</b>
-                    </div>
-                </article>
-
-                <article data-aos="zoom-in" data-aos-duration="700">
-                    <a class="image" target="_self"><img src="images/Colorizer3.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h3>Colorizing Black and White Picture [ongoing]</h3>
-                        <ul>
-                            <li> Computer vision course project mentored by
-                                <a href="https://andrewowens.com/" target="_blank">Andrew Owens</a></li>
-                            <li>Reimplement and optimize the colorizer devised by Richard Zhang [<a href="https://richzhang.github.io/colorization/" target="_blank">2</a>] through adjusting the architecture
-                                of the neural network as well as designing a more effective loss function.
-                            </li>
-                        </ul>
-                        </br>
-                        <b>[<a href="images/EECS%20442_Proposal_Colorizing_black_and_white_picture.pdf" target="_blank">Proposal</a>]</b>
                     </div>
                 </article>
 
@@ -492,9 +492,64 @@
         <header class="major">
             <h2>Industrial Experience<br/></h2>
         </header>
+
+        <h4>
+            <br><b>Meta</b>, Menlo Park, California</br>
+            <nobr>Applied Research Scientist Intern, Enterprise Products Dept. | May 2022 - Aug 2022</nobr>
+        </h4>
+        Project: Spend Classification
+        <ul>
+            <li>
+                Improved and tuned a cross-lingual language model (XLM) that saved $480M+ in the last two
+                years and serves 99 internal teams by classifying Meta’s daily spending into 400+ invoice
+                categories with ~$70B annual traffic
+            </li>
+            <li>
+                Designed and deployed 2-layer hierarchical model architecture to mitigate a severe class
+                imbalance problem within a dataset of 10M invoices improving production accuracy from 92%
+                to 98%; delivered tech talk to team and clients
+            </li>
+            <li>
+                Experimented with 10 useful new XLM features by creating Dataswarm pipelines to extract
+                features from raw data and enhanced model f1-score by >2%
+            </li>
+            <li>
+                Suggested the cross-functional team with modified category taxonomy based on analyzing
+                confusion matrix
+            </li>
+            <li>
+                Resolved data leakage by re-splitting train/test datasets so that production accuracy
+                reflects model generality
+            </li>
+        </ul>
+
+        <h4>
+            <br><b>Intel</b>, Shanghai, China</br>
+            <nobr>Deep Learning Intern, AI and Big Data Dept. | May 2022 - Aug 2022</nobr>
+        </h4>
+        Project: Spend Classification
+        <ul>
+            <li>
+                Built a vertical federated linear regression model that enables companies to collaboratively
+                train a predictive model of 78% accuracy with 5 GB local data of different feature spaces to
+                preserve customer privacy
+            </li>
+            <li>
+                Designed and coded a joint computation mechanism of gradient for loss function among several
+                participants
+            </li>
+            <li>
+                Wrote scripts to encapsulate LibOS and big data applications for training federated learning
+                (FL) models
+            </li>
+            <li>
+                Evaluated and debugged an LSTM-based horizontal FL model with Intel Software Guard Extensions
+            </li>
+        </ul>
+
         <h4>
             <!--TODO: 加一个netease logo？         -->
-            <br><b>NetEase Inc., Hangzhou, China</b></br>
+            <br><b>NetEase Inc.</b>, Hangzhou, China</br>
             <nobr>Android Engineer, Cloud Music Dept. | Jun 2020 - Aug 2020</nobr>
         </h4>
         Project: Revolutionary NetEase Cloud Music Update 8.0
